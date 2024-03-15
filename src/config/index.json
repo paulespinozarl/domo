@@ -38,7 +38,7 @@
   "clients": {
     "title": "CLIENTS WE'VE WORKED WITH",
     "images": [
-      { "src": "../public/tnw.jpg", "alt": "TN" },
+      { "src": "./tnw.jpg", "alt": "TNW" },
       { "src": "./google.jpg", "alt": "Google" },
       { "src": "./nike.jpg", "alt": "Nike" },
       { "src": "./airbnb.jpg", "alt": "Airbnb" },

@@ -5,7 +5,10 @@ const Landing = () => {
   const { landing } = config;
   return (
     <>
-      <section className="max-w-xs mx-5 lg:max-w-5xl lg:mx-auto my-10 lg:mt-24 h-screen">
+      <section
+        id="home"
+        className="max-w-xs mx-5 lg:max-w-5xl lg:mx-auto my-10 lg:mt-24 h-screen"
+      >
         <div className="absolute lg:relative text-3xl lg:text-4xl font-bold max-w-sm lg:max-w-xl text-slate-50 tracking-wider z-10">
           {landing.title}
         </div>

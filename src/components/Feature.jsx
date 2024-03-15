@@ -6,7 +6,7 @@ const Feature = () => {
   const { feature } = config;
 
   return (
-    <div className="bg-[#3870fe] z-60">
+    <div id="tecnology" className="bg-[#3870fe] z-60">
       <div className="lg:h-screen max-w-5xl mx-auto flex flex-col lg:flex-row py-16 lg:py-32 px-6 lg:px-16 text-slate-50 justify-between">
         <div className="flex flex-col lg:flex-row">
           <div className="lg:w-2/3 flex flex-col justify-center items-center lg:items-start gap-4 opacity-75">

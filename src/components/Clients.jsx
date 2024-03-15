@@ -13,7 +13,10 @@ const Clients = () => {
   const { clients } = config;
   const { title, images } = clients;
   return (
-    <div className="flex flex-col justify-center items-center text-sm my-20">
+    <div
+      id="case"
+      className="flex flex-col justify-center items-center text-sm my-20"
+    >
       <h4 className="font-bold opacity-50 text-center mb-4">{title}</h4>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 max-w-screen-lg">
         {images.map((image, index) => (

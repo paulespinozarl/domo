@@ -7,7 +7,7 @@ const Footer = () => {
   const { footer } = config;
   const { sections, title, content } = footer;
   return (
-    <div className="bg-[#283244]">
+    <div id="about" className="bg-[#283244]">
       <footer className="max-w-5xl mx-auto text-slate-50 pt-16 px-4 lg:px-20 py-16 lg:py-24 flex flex-col lg:flex-row justify-between">
         <div className="lg:w-1/2 mb-5 lg:mb-0">
           <h3 className="font-semibold mb-5">{title}</h3>

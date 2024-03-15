@@ -28,7 +28,10 @@ const data = [
 const Services = () => {
   const { services } = config;
   return (
-    <section className="max-w-5xl mx-auto flex flex-col justify-center items-center gap-4 nunito-custom -mt-96 lg:-mt-24 -mb-10">
+    <section
+      id="services"
+      className="max-w-5xl mx-auto flex flex-col justify-center items-center gap-4 nunito-custom -mt-96 lg:-mt-24 -mb-10"
+    >
       <h3 className="text-slate-50 text-3xl font-semibold z-50">
         {services.title}
       </h3>
