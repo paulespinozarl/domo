@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nunito-custom {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Puedes ajustar el peso según tus necesidades */
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+.container {
+  width: 100vw;
+  height: 200vh;
+  background-image: url("bg-l.jpg"), url("bg-r.jpg");
+  background-position: left, right;
+  background-size: 50% 100%, 50% 100%;
+  background-repeat: no-repeat;
+}

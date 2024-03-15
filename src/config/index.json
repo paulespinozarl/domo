@@ -1,0 +1,80 @@
+{
+  "navbar": [
+    {
+      "name": "Home",
+      "href": "home"
+    },
+    {
+      "name": "Services",
+      "href": "services"
+    },
+    {
+      "name": "Technology",
+      "href": "tecnology"
+    },
+    {
+      "name": "Case studies",
+      "href": "case"
+    },
+    {
+      "name": "About",
+      "href": "about"
+    }
+  ],
+  "landing": {
+    "title": "We build beautiful and reliable web solutions",
+    "content": "We strongly believe that communication, trust and br transparency are the essential elemnts of successful business relationship. Ready for the journey?",
+    "button_1": "Learn more",
+    "button_2": "Our Projects"
+  },
+  "services": {
+    "title": "Our Services",
+    "content": "We feel very strong about our skills when it comes to planning, designing and coding applications. Here is what we love to do!"
+  },
+  "feature": {
+    "title": "We use cutting edge technology",
+    "content": "Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
+  },
+  "clients": {
+    "title": "CLIENTS WE'VE WORKED WITH",
+    "images": [
+      { "src": "../public/tnw.jpg", "alt": "TN" },
+      { "src": "./google.jpg", "alt": "Google" },
+      { "src": "./nike.jpg", "alt": "Nike" },
+      { "src": "./airbnb.jpg", "alt": "Airbnb" },
+      { "src": "./ina.jpg", "alt": "INA" }
+    ]
+  },
+  "proyects": {
+    "title": {
+      "one": "Get in touch with us",
+      "two": "Our Projects"
+    },
+    "description": {
+      "one": "Meacenas sed diam eget risus varius blandit sit amet non magna",
+      "two": "Meacenas sed diam eget risus varius blandit sit amet non magna"
+    },
+    "button": {
+      "one": "Hire us",
+      "two": "See Projects"
+    }
+  },
+  "footer": {
+    "title": "complete labs",
+    "content": "  Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec ullamcorper nulla.",
+    "sections": [
+      {
+        "title": "SITEMAP",
+        "links": ["Home", "Technology", "Services", "About"]
+      },
+      {
+        "title": "CASE STUDIES",
+        "links": ["Swiss Airlines", "Google", "Apple", "Nike"]
+      },
+      {
+        "title": "CONTACT",
+        "links": ["Jobs", "Hire us"]
+      }
+    ]
+  }
+}
